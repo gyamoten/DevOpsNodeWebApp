@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Stream I AM MUSIC! Now Docker Deployment ...');
+  res.send('Stream I AM MUSIC! Now Docker Deployment with Github Actions!! Hoffentlich hat das bald mal ein Ende...');
 });
 app.get('/about', (req, res) => {
   res.send('My name is Tenzin!');
